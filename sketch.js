@@ -31,31 +31,33 @@ function draw() {
   push();
   rotate(scAngle);
   stroke("red");
+  strokeWeight(7);
   line(0,0,40,0);
   pop();
 
   push();
   rotate(mnAngle);
   stroke("green");
+  strokeWeight(7);
   line(0,0,50,0);
   pop();
 
   push();
   rotate(hrAngle);
   stroke("blue");
+  strokeWeight(7);
   line(0,0,30,0);
   pop();
 
   stroke("red");
   strokeWeight(7);
-  arc(10, 30, 320, 320, 0, scAngle);
+  arc(0, 0, 320, 320, 0, scAngle);
 
-  stroke("green");
+  stroke("green")
   strokeWeight(7);
-  arc(20, 30, 260, 260, 0, mnAngle);
+  arc(0, 0, 260, 260, 0, mnAngle);
 
   stroke("blue");
   strokeWeight(7);
-  arc(30, 30, 200, 200, 0, hrAngle);
-
+  arc(0, 0, 200, 200, 0, hrAngle);
 }
