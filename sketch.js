@@ -49,15 +49,16 @@ function draw() {
   line(0,0,30,0);
   pop();
 
+  noFill();
   stroke("red");
-  strokeWeight(7);
+  strokeWeight(3);
   arc(0, 0, 320, 320, 0, scAngle);
 
-  stroke("green")
-  strokeWeight(7);
+  stroke("green");
+  strokeWeight(3);
   arc(0, 0, 260, 260, 0, mnAngle);
 
   stroke("blue");
-  strokeWeight(7);
+  strokeWeight(3);
   arc(0, 0, 200, 200, 0, hrAngle);
 }
